@@ -102,7 +102,7 @@ function showCaptcha() {
 				<a href="/"><img style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; max-width: calc(100% - 14px); padding-top: 7px; padding-left: 7px; padding-right: 7px;" src="images/title/title.png"></a>
 			</div>
 			<div id="content-container">
-				<div id="navlinks"><a href="http://theoverseerproject.tumblr.com/">NEWS</a> <img src="images/title/smallgrist.png"> <a href="/?credits">CREDITS</a> <img src="images/title/smallgrist.png"> <a href="http://forums.overseer2.com/">FORUM</a> <img src="images/title/smallgrist.png"> <a href="http://the-overseer.wikia.com/">WIKI</a> <img src="images/title/smallgrist.png"> <a href="/?changelog">CHANGELOG</a> <img src="images/title/smallgrist.png"> <a href="http://forums.overseer2.com/viewforum.php?f=5">BUGS</a> <img src="images/title/smallgrist.png"> <a href="/?faq">FAQ</a> <img src="images/title/smallgrist.png"> <a href ="http://theoverseerproject.tumblr.com/ask">HELP</a></div>
+				<div id="navlinks"> <a href="/?credits">CREDITS</a>   <img src="images/title/smallgrist.png"> <a href="https://the-overseer.fandom.com/wiki/Main_Page/">WIKI</a> <img src="images/title/smallgrist.png"> <a href="/?changelog">CHANGELOG</a> <img src="images/title/smallgrist.png"> <a href="">BUGS</a> <img src="images/title/smallgrist.png"> <a href="/?faq">FAQ</a> </div>
 				<div id="content-container2">
 <?php if (isset($_GET['changelog'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/changelog.html');
 elseif (isset($_GET['about'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/about.html');
