@@ -85,14 +85,14 @@ function showCaptcha() {
 	</head>
 	<body>
 		<div id="leftcolumn">
-			<div id="ad-header"></div>
-			<!-- Project Wonderful Ad Box Code -->
+			<!-- <div id="ad-header"></div>
+			Project Wonderful Ad Box Code 
 			<div id="pw_adbox_71403_3_0"></div>
 			<script type="text/javascript"></script>
 			<noscript><map name="admap71403" id="admap71403"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&c=0&id=71403&type=3" shape="rect" coords="0,0,160,600" title="" alt="" target="_blank" /></map>
 			<table cellpadding="0" cellspacing="0" style="width:160px;border-style:none;background-color:#ffffff;"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=71403&type=3" style="width:160px;height:600px;border-style:none;" usemap="#admap71403" alt="" /></td></tr><tr><td style="background-color:#ffffff;" colspan="1"><center><a style="font-size:10px;color:#0000ff;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=71403&type=3" target="_blank">Ads by Project Wonderful!  Your ad here, right now: $0</a></center></td></tr></table>
 			</noscript>
-			<!-- End Project Wonderful Ad Box Code -->
+			End Project Wonderful Ad Box Code -->
 		</div>
 		<div id="middlecolumn">
 			<div style="height: 129px; width: 100%; position: relative;">
@@ -254,7 +254,7 @@ To delete a character, right click it and select delete.
 			});
 		</script>
 <?php if (isset($captcha) && ($captcha == true)) echo("    <script src='https://www.google.com/recaptcha/api.js'></script>\n"); ?>
-<!-- Project Wonderful Ad Box Loader -->
+<!-- Project Wonderful Ad Box Loader 
 <script type="text/javascript">
 	 (function(){function pw_load(){
 			if(arguments.callee.z)return;else arguments.callee.z=true;
@@ -270,8 +270,8 @@ To delete a character, right click it and select delete.
 		window.addEventListener('DOMContentLoaded',pw_load,false);
 		window.addEventListener('load',pw_load,false);}})();
 </script>
-<!-- End Project Wonderful Ad Box Loader -->
-<!-- Google Analytics -->
+ End Project Wonderful Ad Box Loader -->
+<!-- Google Analytics
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -282,6 +282,6 @@ To delete a character, right click it and select delete.
 	ga('send', 'pageview');
 
 </script>
-<!-- End Google Analytics -->
+ End Google Analytics -->
 	</body>
 </html>
