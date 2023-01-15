@@ -93,8 +93,8 @@ function showCaptcha() {
 			<table cellpadding="0" cellspacing="0" style="width:160px;border-style:none;background-color:#ffffff;"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=71403&type=3" style="width:160px;height:600px;border-style:none;" usemap="#admap71403" alt="" /></td></tr><tr><td style="background-color:#ffffff;" colspan="1"><center><a style="font-size:10px;color:#0000ff;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=71403&type=3" target="_blank">Ads by Project Wonderful!  Your ad here, right now: $0</a></center></td></tr></table>
 			</noscript>
 			End Project Wonderful Ad Box Code -->
-			 <div id="leftcolumn"> <video width="122" height="400" controls>
-  <source src="ads.webm" type="video/webm">
+			 <div id="leftcolumn"> <video width="400" height="122" controls>
+  <source src="images/title/ads.webm" type="video/webm">
 </video> </div>
 		</div>
 		<div id="middlecolumn">
