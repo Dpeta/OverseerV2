@@ -107,8 +107,7 @@ function showCaptcha() {
 <?php if (isset($_GET['changelog'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/changelog.html');
 elseif (isset($_GET['about'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/about.html');
 elseif (isset($_GET['faq'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/faq.html');
-elseif (isset($_GET['credits'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/credits.html');
-			else { // no other pages requested so they must want the news! ?>
+elseif (isset($_GET['credits'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/credits.html');?>
 					
 				</div>
 			</div>
