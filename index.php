@@ -109,9 +109,7 @@ elseif (isset($_GET['about'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/a
 elseif (isset($_GET['faq'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/faq.html');
 elseif (isset($_GET['credits'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title/credits.html');
 			else { // no other pages requested so they must want the news! ?>
-					<div id="news-header"></div>
-					<div id="news" style="overflow-y: scroll; height: calc(100% - 92px); width: 100%; background-color: #66c8d9; border-radius: 3px;"><?php include($_SERVER['DOCUMENT_ROOT'] . '/inc/tumblr.php'); ?></div>
-<?php } ?>
+					
 				</div>
 			</div>
 		</div>

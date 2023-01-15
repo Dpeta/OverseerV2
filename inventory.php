@@ -144,7 +144,7 @@ if (empty($_SESSION['character'])) {
           $reading = mysqli_fetch_array($readresult);
           echo "You read your " . $irow[$i]['name'] . "...<br /><br />";
           echo $reading['text'] . "<br />";
-        } else echo "Your " . $irow[$i]['name'] . " is not good reading material.<br />(But if you think it should be, feel free to submit a text for it to <a href='http://babbyoverseer.tumblr.com'>the Overseer Item Blog</a>!)<br />";
+        } else echo "Your " . $irow[$i]['name'] . " is not good reading material.<br />(But if you think it should be, feel free to submit a text for it to <a href='https://web.archive.org/web/20130625132243/babbyoverseer.tumblr.com'>the Overseer Item Blog</a>!)<br />";
       } elseif($_POST['invaction'] == "recycle"){
 		  $gristed = false;
 			if (!empty($charrow['inventory'])) {
