@@ -26,11 +26,6 @@ function getcharbgcolor($charcolor) {
 	$charcolorhsl['L'] = $newL;
 	return('background: #' . Mexitek\PHPColors\Color::hslToHex($charcolorhsl) . '; color: ' . $textc .';');
 }
-function showCaptcha() {
-	global $captcha;
-	$captcha = true;
-	echo('<div class="g-recaptcha" data-sitekey="6LcsfQgTAAAAAKGVoQbr1nNjVrD88UnYHHrZDaxr" data-size="compact"></div>');
-}
 
 ?>
 <!DOCTYPE html>
@@ -124,7 +119,6 @@ elseif (isset($_GET['credits'])) include($_SERVER['DOCUMENT_ROOT'] . '/inc/title
 				Confirm email: <input id="cemail" name="cemail" type="text"><br>
 				Note: The Overseer Project uses these emails for the sole purpose of account recovery, should you forget your password. We will never give your email to any third parties, or send you anything without your permission.<br>
 				You can always change your email through the Account Settings page.<br>
-<?php showCaptcha(); ?>
 				<input type="submit" value="Register">
 			</form>
 <?php } else { // Nothing else is being requested and the user isn't trying to register, so make them log in! ?>
@@ -253,7 +247,6 @@ To delete a character, right click it and select delete.
 				}
 			});
 		</script>
-<?php if (isset($captcha) && ($captcha == true)) echo("    <script src='https://www.google.com/recaptcha/api.js'></script>\n"); ?>
 <!-- Project Wonderful Ad Box Loader 
 <script type="text/javascript">
 	 (function(){function pw_load(){
